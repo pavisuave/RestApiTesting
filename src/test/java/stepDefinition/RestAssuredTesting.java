@@ -35,7 +35,9 @@ public class RestAssuredTesting {
 	
 	 RequestSpecification request=given();
 	 response= request.when().get(url);
-		  System.out.println(response.asPrettyString()+"new change fdfdsfdsfdsfds");
+
+		  System.out.println(response.asPrettyString()+"new change ghjgjs");
+
 }
 
 @Then("Response is {string}")
