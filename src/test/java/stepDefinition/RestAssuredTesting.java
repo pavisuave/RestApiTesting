@@ -32,6 +32,7 @@ public class RestAssuredTesting {
 		response = request.when().get(url);
 		System.out.println(response.asPrettyString() + "new change update all new ");
 	System.out.println("new line added");
+
 	}
 
 	@Then("Response is {string}")
