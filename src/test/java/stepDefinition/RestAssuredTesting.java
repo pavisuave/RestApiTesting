@@ -30,7 +30,7 @@ public class RestAssuredTesting {
 		baseURI = Baseurl;
 		RequestSpecification request = given();
 		response = request.when().get(url);
-		System.out.println(response.asPrettyString() + "new change update all new ");
+		System.out.println(response.asPrettyString() + "new change update ");
 	System.out.println("new line added")
 	}
 
