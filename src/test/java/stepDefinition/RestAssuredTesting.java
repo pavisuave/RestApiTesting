@@ -40,6 +40,7 @@ public class RestAssuredTesting {
 
 @Then("Response is {string}")
 public void response_is(String status) {
+	System.out.println("new line added");
 	int actualResponseCode=response.then().extract().statusCode();
 	
      assertEquals(status, actualResponseCode +"");
