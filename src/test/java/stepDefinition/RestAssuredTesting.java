@@ -38,7 +38,7 @@ public class RestAssuredTesting {
 
 
 
-		  System.out.println(response.asPrettyString()+"new change updated might be changed");
+		  System.out.println(response.asPrettyString()+"new change update from remote");
 
 
 }
