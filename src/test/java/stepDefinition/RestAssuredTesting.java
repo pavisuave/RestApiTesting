@@ -30,8 +30,7 @@ public class RestAssuredTesting {
 		baseURI = Baseurl;
 		RequestSpecification request = given();
 		response = request.when().get(url);
-		System.out.println(response.asPrettyString() + "new change update  nice add mugi here");
-		//new status add
+		System.out.println(response.asPrettyString() + "new change update all new ");
 	}
 
 	@Then("Response is {string}")
