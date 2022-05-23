@@ -26,6 +26,7 @@ public class RestAssuredTesting {
 	// this.scenario=scenario;
 	// }
 	@Given("Get call to {string}")
+
 	public void get_call_to(String url) throws URISyntaxException {
 		baseURI = Baseurl;
 		RequestSpecification request = given();
